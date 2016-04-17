@@ -1,0 +1,252 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+.jobsdiv{
+	float:left;
+	width:95%;
+	margin:10px 0px;
+}
+.jobstab{
+	border:1px solid #f0efef; width:100%; margin-bottom: 1em; padding: 10px; float:left;
+}
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+margin-left:20px;
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 5px 30px;
+margin-right: 3px;
+border: 1px solid #e1e1e1;
+color: #333;
+border-radius:3px;
+font-weight:normal;
+font-size:14px;
+background:  #efefef;
+float:left;
+margin-bottom:0px;
+margin-top:2px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li a.selected{ position: relative;/*selected main tab style 
+
+top: 3px;*/
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+  background:#0e9cd7;
+    border: 1px solid #0b8abe;
+	color:#fff;
+	
+	margin-top:2px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+float:left;
+width:100%;
+}
+.tabcontent h3{
+	border-bottom: none !important;
+    color: #666;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 4px;
+    width: 100%;
+	margin-bottom:7px;
+}
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. Remove if not using ######### */
+
+.modernbricksmenu2{
+padding: 0;
+width: 362px;
+border-top: 5px solid #D25A0B; /*Brown color theme*/ 
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu2 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu2 a{
+float: left;
+display: block;
+font: bold 11px Arial;
+color: white;
+text-decoration: none;
+margin: 0 1px 0 0; /*Margin between each menu item*/
+padding: 5px 10px;
+background-color: black; /*Brown color theme*/ 
+border-top: 1px solid white;
+}
+
+.modernbricksmenu2 a:hover{
+background-color: #D25A0B; /*Brown color theme*/ 
+color: white;
+}
+
+.modernbricksmenu2 a.selected{ /*currently selected tab*/
+background-color: #D25A0B; /*Brown color theme*/ 
+color: white;
+border-color: #D25A0B; /*Brown color theme*/ 
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+/* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
+
+
+.indentmenu{
+font: bold 13px Arial;
+width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+margin: 0;
+padding: 0;
+float: left;
+/* width: 80%; width of menu*/
+border-top: 1px solid navy; /*navy border*/
+background: black url(indentbg.gif) center center repeat-x;
+}
+
+.indentmenu ul li{
+display: inline;
+}
+
+.indentmenu ul li a{
+float: left;
+color: white; /*text color*/
+padding: 5px 11px;
+text-decoration: none;
+border-right: 1px solid navy; /*navy divider between menu items*/
+}
+
+.indentmenu ul li a:visited{
+color: white;
+}
+
+.indentmenu ul li a.selected{
+color: white !important;
+padding-top: 6px; /*shift text down 1px*/
+padding-bottom: 4px;
+background: black url(indentbg2.gif) center center repeat-x;
+}
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+border: 1px solid gray;
+width: 450px;
+margin-bottom: 1em;
+padding: 10px;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+.applyjobs{
+	float:left;
+	width:100%;
+	margin:5px 0px;
+}
+.date, .appli{
+	float:left;
+	width:10%;
+}
+.date h3, .title h3, .viewss h3, .appli h3, .rec h3, .status h3{
+	float:left;
+	width:100%;
+	font-size:14px;
+	margin:0px 0px 8px 0px !important;
+	padding:0px 0px 6px 0px;
+	border-bottom:1px solid #f0efef !important;
+}
+.date p, .title p, .viewss p, .appli p, .rec p, .status p{
+	float:left;
+	width:100%;
+	font-size:14px;
+	margin:3px 0px 0px 0px !important;
+	padding:0px;
+	color:#666;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #f0efef !important;
+	
+}
+.title{
+	float:left;
+	width:42%;
+}
+.viewss{
+	float:left;
+	width:10%;
+}
+.rec{
+	float:left;
+	width:15%;
+}
+.status{
+	float:left;
+	width:13%;
+}

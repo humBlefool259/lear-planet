@@ -1,0 +1,202 @@
+
+.form {
+	background: #f1f1f1;
+	width: 475px;
+	margin:10px auto  0 auto;
+	padding-left: 50px;
+	padding-top: 0px;
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.35);
+	border-radius: 3px;
+	border: 1px solid #e9e9e9;
+	padding-bottom:12px;
+	height:138px;
+}
+.form fieldset {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.form p.contact {
+	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+
+}
+.form input[type="text"] {
+	width: 400px;
+}
+.form input[type="email"] {
+	width: 400px;
+}
+.form input[type="password"] {
+	width: 400px;
+}
+.form input.birthday {
+	width: 60px;
+}
+.form input.birthyear {
+	width: 120px;
+}
+.form label {
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	float:left;
+	width:99%;
+	margin-bottom:0px;
+	padding-left:5px;
+	margin-top:7px;
+	text-align:left;
+}
+.form label.month {
+	width: 135px;
+}
+
+.form input:focus, textarea:focus {
+	border: 1px solid #ff5400;
+	background-color: rgba(255, 255, 255, 1);
+}
+.form .select-style {
+	-webkit-appearance: button;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-webkit-user-select: none;
+	background-image: url(images/select-arrow.png),  -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 0px solid #FFF;
+	color: #555;
+	font-size: inherit;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.form .gender {
+	width: 410px;
+}
+.form input.buttom {
+	float: left;
+	background: #0e9cd7;
+	padding: 5px 20px;
+	color: #fff;
+	border-radius: 2px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	margin:2px 0px 0px 5px;
+	cursor:pointer;
+	border:none;
+	
+}
+.form input.buttom:hover {
+	float: left;
+	background: #333;
+	padding: 5px 20px;
+	color: #fff;
+	border-radius: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin:2px 0px 0px 5px;
+}
+.input{
+	float:left;
+	width:80%;
+	margin:5px 0px;
+	border-radius:3px;
+	 border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.21) inset;
+	height:20px;
+	padding:5px;
+}
+.heading{
+	margin:100px auto 10px;
+	width:56%;
+}
+.heading p{
+	float:left;
+	width:100%;
+	color:#ff0000;
+	font-size:15px;
+	margin-bottom:12px;
+}
+.clr{
+	clear:both;
+}
+.heading h1{
+	margin:10px 0px 0px 25px;
+	width:98%;
+	font-size:37px;
+	font-weight:bold;
+	color:#00bdff;
+	text-shadow:0px 1px 1px #666;
+	text-transform:uppercase;
+	float:left;
+}
+.heading h1 span{
+	margin:10px 0px 0px 0px;
+	font-size:22px;
+	font-weight:normal;
+	color:#333;
+	text-shadow:0px 1px 1px #ccc;
+	text-transform:capitalize;
+}
+#rad {
+	float: left;
+}
+.label {
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.label_gen {
+	width: 12%;
+	overflow: hidden;
+	float: left;
+}
+.form input[type="text"] {
+	width: 300px;
+}
+.form input[type="email"] {
+	width: 300px;
+}
+.form input[type="password"] {
+	width: 300px;
+}
+.form input.birthday {
+	width: 60px;
+}
+.form input.birthyear {
+	width: 120px;
+}
+.form label {
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+.form label.month {
+	width: 135px;
+}
+.left_fo {
+	overflow: hidden;
+	width: 45%;
+	float: left;
+	height: auto;
+	margin:20px;
+}
+.right_fo {
+	overflow: hidden;
+	width: 45%;
+	float: right;
+	height: auto;
+	margin:20px;
+}

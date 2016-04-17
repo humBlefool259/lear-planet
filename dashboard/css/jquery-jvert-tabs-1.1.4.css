@@ -1,0 +1,314 @@
+body{
+	font-family:calibri;
+}
+.acc{
+	float:left;
+	width:98%;
+	margin:10px;
+}
+.margtp{
+	margin-top:8px !important;
+	float:left;
+}
+.acc h3{
+	float:left;
+	width:80%;
+	margin:0px;
+	border-bottom:1px solid #f0efef;
+	padding-bottom:4px;
+	font-size:18px;
+	font-weight:normal;
+	margin-bottom:0px;
+	color:#666;
+}
+.col-md-3{
+	float: right;
+    margin-top: -43px;
+    width: 20%;
+}
+.acc h3 span a{
+	font-size:16px;
+	font-weight:normal;
+	color:#0e9cd7;
+	text-decoration:none;
+	margin-left:10px;
+}
+.vtabs-content-panel{
+	/*min-height:405px !important;*/
+	float:left;
+	height:auto;
+}
+.accdetails{
+	float:left;
+	width:100%;
+	margin:7px 0px;
+}
+
+.accspan{
+	float:left;
+	width:20%;
+	font-size:14px;
+	color:#666;
+}
+.paccspan{
+	float:left;
+	width:33%;
+	font-size:14px;
+	color:#8f8d8d;
+}
+.eduspan{
+	float:left;
+	width:33%;
+	font-size:14px;
+	color:#8f8d8d;
+}
+.accspandet{
+	float:left;
+	width:60%;
+	color:#333;
+	font-size:14px;
+}
+.butsave{
+	float:left;
+	width:60%;
+	color:#666;
+	font-size:14px;
+	margin-left:20%;
+}
+.pandet{
+	float:left;
+	width:64%;
+	color:#333;
+	font-size:14px;
+}
+.edudet{
+	float:left;
+	width:67%;
+	color:#333;
+	font-size:14px;
+}
+.vtabs {
+	/* a border is required for IE otherwise the tab panels will not be aligned correctly. */
+	position: relative;  border: 1px solid #ffffff;
+}
+.vtabs .vtabs-tab-column {
+	position: absolute; left: 0; margin: 0; width: 170px; min-width: 170px; margin-top:5px;
+}
+.vtabs .vtabs-tab-column ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.vtabs .vtabs-tab-column ul li.open{
+	color:#fff !important;
+}
+/* css for tab that is open */
+.vtabs .vtabs-tab-column ul li.open, .vtabs .vtabs-tab-column ul li.closed {
+	background: #0e9cd7;
+	margin: 0px;
+	color:#fff !important;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 1px;
+	/* round corners do not work in IE */
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+	min-height:20px;
+	z-index: 10;
+}
+/* css for tab that is closed */
+.vtabs .vtabs-tab-column ul li.closed {
+	border-right: 1px solid #e1e1e1;
+	background: #efefef;
+	color:#333 ;
+	
+}
+/* css for tab hover */	
+.vtabs .vtabs-tab-column ul li:hover {
+	
+	background: #e6e7e9;
+	color:#777;
+		
+}
+/* css for link on tab that's open */
+.vtabs .vtabs-tab-column ul li a.open, .vtabs .vtabs-tab-column ul li a.closed {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color:#fff;
+	font-size:15px;
+	letter-spacing:0.6px;
+}
+/* css for link on tab that's closed */
+.vtabs .vtabs-tab-column ul li a.closed {
+	color: #777;
+}	
+.vtabs .vtabs-content-column {
+	padding: 0px;
+	margin: 0px;
+}
+/* css for the content panels */
+.vtabs .vtabs-content-column .vtabs-content-panel {
+	background-color: #fff;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 0px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;	
+	-webkit-border-bottom-left-radius: 3px;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+
+	border-left: 1px solid #e1e1e1;
+	
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+width:100%;
+
+}
+.dashb{
+	width:92%;
+	margin:0px auto;
+}
+.personade{
+	float:left;
+	width:46%;
+	margin-right:22px;
+	
+}
+
+.mtop{
+	float:left;
+	margin-top:25px !important;
+	width:100%;
+}
+.edude{
+	float:left;
+	width:48%;
+	margin-left:30px;
+	
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /*border-radius: 4px;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 13px;
+    line-height: 1.42857;
+    padding: 3px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 81%;
+}
+.form-control:focus {
+    background-color: #fff;
+    border: 1px solid #777;
+    /*border-radius: 4px;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 65%;
+}
+.sbtn2{
+	float:left;
+	padding:5px 15px;
+	background:#0e9cd7;
+	color:#fff;
+	font-size:15px;
+	text-transform:capitalize;
+	border-radius:3px;
+	border:none;
+	cursor:pointer;
+	text-shadow:0px 1px 1px #057daf;
+	margin-top:20px;
+}
+.sbtn2:hover{
+	float:left;
+	padding:5px 15px;
+	background:#333333;
+	color:#fff;
+	font-size:15px;
+	text-transform:capitalize;
+	border-radius:3px;
+	border:none;
+	cursor:pointer;
+	text-shadow:0px 1px 1px #000;
+}
+.pro-pic{
+	float:left;
+	width:100%;
+	margin:10px 0px;
+}
+.pp-pic{
+	margin:0px auto;
+	width:20%;
+}
+.pp-pic img{
+	margin:0px ;
+	margin-bottom:5px;
+	
+}
+.pr-text{
+	float:left;
+	width:100%;
+	margin:5x 0px 0px 0px;
+	text-align:center;
+	font-size:15px;
+	color:#666;
+}
+.namP{
+	color:#0e9cd7;
+	font-size:17px;
+	font-weight:bold;
+}
+.heading{
+	float:left;
+	width:80%;
+	font-size:18px !important;
+	font-weight:normal;
+}
+
+.edit-conf{
+	float:right;
+	width:22%;
+	margin:10px 9% 0px 0px;
+}
+.edit-conf a{
+	background:#333;
+	padding:3px 15px;
+	font-size:15px;
+	border-radius:3px;
+	color:#fff;
+}
+.edit-conf a:hover{
+	background:#0e9cd7;
+	padding:3px 15px;
+	font-size:15px;
+	color:#fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
